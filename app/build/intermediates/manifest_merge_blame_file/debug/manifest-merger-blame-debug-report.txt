@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.intentfuzzer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:11:5-13:41
+8        android:minSdkVersion="14"
+8-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:11:5-13:41
+9        android:targetSdkVersion="29" />
+9-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:13:9-38
+10
+11    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+11-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:6:5-77
+11-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:6:22-74
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:7:5-78
+12-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:7:22-75
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:8:5-80
+13-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:9:5-81
+14-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:9:22-78
+15
+16    <application
+16-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:15:5-44:19
+17        android:name="com.android.intentfuzzer.MyApp"
+17-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:16:9-30
+18        android:allowBackup="true"
+18-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:17:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.0] /Users/zsj/.gradle/caches/transforms-2/files-2.1/6d11613c3b6a00a9ea456b5609ec43f7/core-1.0.0/AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/ic_launcher"
+21-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:19:9-45
+22        android:label="@string/app_name"
+22-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:20:9-41
+23        android:requestLegacyExternalStorage="true"
+23-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:18:9-52
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:21:9-40
+26        <activity
+26-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:22:9-30:20
+27            android:name="com.android.intentfuzzer.MainActivity"
+27-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:23:13-41
+28            android:label="@string/app_name" >
+28-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:24:13-45
+29            <intent-filter>
+29-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:25:13-29:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:26:17-69
+30-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:26:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:28:17-77
+32-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:28:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:32:9-36:20
+36            android:name="com.android.intentfuzzer.AppInfoActivity"
+36-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:33:13-46
+37            android:exported="false"
+37-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:35:13-37
+38            android:label="@string/app_name" >
+38-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:34:13-45
+39        </activity>
+40        <activity
+40-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:38:9-42:20
+41            android:name="com.android.intentfuzzer.FuzzerActivity"
+41-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:39:13-43
+42            android:exported="false"
+42-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:41:13-37
+43            android:label="@string/app_name" >
+43-->/Users/zsj/Downloads/原始/开发需求/IntentFuzzer-master2/app/src/main/AndroidManifest.xml:40:13-45
+44        </activity>
+45    </application>
+46
+47</manifest>

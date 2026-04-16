@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#80D5E4F4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="150dip"
+       android:layout_height="550dip"
+       android:orientation="vertical"
+       tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+               <TextView
+                   android:textColor="#FF3F3F"
+                   android:text="测试应用名称:"
+                   android:textSize="12dp"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content">
+               </TextView>
+                <TextView
+                    android:id="@+id/appName"
+                    android:textSize="10dp"
+                    android:textColor="#5AE485"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+        </LinearLayout>
+       <LinearLayout
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           tools:ignore="MissingConstraints">
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text="共 "
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:id="@+id/kyCountId"
+               android:textSize="12dp"
+               android:textColor="#5AE485"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text=" 条可疑路径"
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           tools:ignore="MissingConstraints">
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text="当前路径: "
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:id="@+id/currentPathId"
+               android:textSize="10dp"
+               android:textColor="#5AE485"
+               android:background="#E6EDA8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           tools:ignore="MissingConstraints">
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text="起始组件: "
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:id="@+id/startComponentId"
+               android:textSize="10dp"
+               android:textColor="#5AE485"
+               android:background="#E6EDA8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/cslxId"
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           tools:ignore="MissingConstraints">
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text="参数类型: "
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:id="@+id/parentTypeId"
+               android:textSize="10dp"
+               android:textColor="#5AE485"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/csnrId"
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           tools:ignore="MissingConstraints">
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text="参数内容: "
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:id="@+id/parentContentId"
+               android:textSize="10dp"
+               android:textColor="#5AE485"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+       <LinearLayout
+           android:id="@+id/middleComponentId"
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           tools:ignore="MissingConstraints">
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           tools:ignore="MissingConstraints">
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text="终止组件: "
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:id="@+id/stopComponetId"
+               android:textSize="10dp"
+               android:textColor="#5AE485"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+
+       <View
+           android:background="#FF3F3F"
+           android:layout_width="match_parent"
+           android:layout_height="1dip"></View>
+
+
+       <LinearLayout
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           tools:ignore="MissingConstraints">
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text="当前路径测试进度: "
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:id="@+id/currentProgressId"
+               android:textSize="10dp"
+               android:text="0%"
+               android:textColor="#5AE485"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginTop="5dip"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           tools:ignore="MissingConstraints">
+           <TextView
+               android:textColor="#FF3F3F"
+               android:text="路径覆盖总进度: "
+               android:textSize="12dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+           <TextView
+               android:id="@+id/totalProgressId"
+               android:textSize="10dp"
+               android:text="0%"
+               android:textColor="#5AE485"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </TextView>
+       </LinearLayout>
+
+       <TextView
+           android:id="@+id/condstext"
+           android:layout_width="78dp"
+           android:layout_height="22dp"
+           android:text="99:99:99"
+           android:textSize="12dp"
+           android:gravity="center"
+           android:visibility="gone"
+           android:textColor="@color/white"
+           android:background="#80000000"
+           tools:ignore="MissingConstraints" />
+
+   </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
